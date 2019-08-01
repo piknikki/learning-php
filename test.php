@@ -44,5 +44,15 @@ if (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE') !== FALSE) {
 }
 ?>
 
+<?php
+$name = "Marceline";
+$age = "200";
+
+echo "My name is $name.\n";
+
+echo "My age is $age";
+
+?>
+
 </body>
 </html>
